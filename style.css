@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f9;
+}
+h1 {
+    text-align: center;
+    color: #333;
+    margin: 40px;
+    font-size: 40px;
+}
+a {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    text-decoration: none;
+    color: #fff;
+    background-color: gray; /* Dark red background for a festive look */
+    border-radius: 4px;
+    text-align: center;
+    transition: background-color 0.2s ease; /* Smooth transition for hover effect */
+    font-size: 24px;
+}
+a:hover {
+    background-color: darkgray;
+}
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 40px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid #d32f2f;
+}
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+select, button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    outline: none;
+}
+select {
+    border: 2px dashed #ccc !important;
+}
+button {
+    background-color: lightcoral;
+    color: white;
+    font-size: 16px;
+    border: 0px;
+    min-height: 1%;
+    border-radius: 5px;
+    transition: background-color 0.2s ease-out;
+}
+button:hover {
+    background-color: #854343;
+}
+#result {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #e6ffe6;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: none;
+}

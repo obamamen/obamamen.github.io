@@ -1,7 +1,36 @@
-<!DOCTYPE html>
-<html>
-  <body>
-    <h1>Hello World</h1>
-    <p>I'm hosted with GitHub Pages.</p>
-  </body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kert kaartenspel</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js"></script>
+</head>
+<body>
+<h1>kaarten spellen quiz</h1>
+<form id="quizForm">
+  <label for="players">Hoeveel spelers?</label>
+  <select id="players" required>
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5+">5+</option>
+  </select>
+
+  <label for="difficulty">Will je een simpel spel?</label>
+  <select id="difficulty" required>
+    <option value="ja">Ja</option>
+    <option value="nee">Nee</option>
+  </select>
+
+
+  <button type="button" onclick="recommendGame()">Krijg spel</button>
+</form>
+
+<div id="result">
+  <h2>Spellen</h2>
+  <div id="game"></div>
+</div>
+</body>
 </html>
