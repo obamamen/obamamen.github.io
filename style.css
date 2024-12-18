@@ -6,7 +6,7 @@ body {
 }
 h1 {
     text-align: center;
-    color: #333;
+    color: #211111;
     margin: 40px;
     font-size: 40px;
 }
@@ -16,23 +16,23 @@ a {
     margin: 10px;
     text-decoration: none;
     color: #fff;
-    background-color: gray; /* Dark red background for a festive look */
-    border-radius: 4px;
+    background-color: #495249;
+    border-radius: 8px;
     text-align: center;
-    transition: background-color 0.2s ease; /* Smooth transition for hover effect */
+    transition: background-color 0.2s ease;
     font-size: 24px;
 }
 a:hover {
-    background-color: darkgray;
+    background-color: #242a24;
 }
 form {
     max-width: 400px;
-    margin: 20px auto;
+    margin: 40px auto;
+    margin-bottom: 80px !important;
     padding: 40px;
     background: #fff;
     border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    border: 2px solid #d32f2f;
+    border: 3px solid #d51414;
 }
 label {
     display: block;
@@ -61,13 +61,14 @@ button {
 button:hover {
     background-color: #854343;
 }
-#result {
+.resultBox {
+    display: none;
     max-width: 400px;
     margin: 20px auto;
     padding: 20px;
-    background: #e6ffe6;
-    border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    background: #bbe1bb;
+    box-shadow: 4px 4px 12px #677067;
+    border-radius: 20px;
+    min-height: 150px;
     text-align: center;
-    display: none;
 }

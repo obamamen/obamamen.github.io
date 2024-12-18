@@ -61,6 +61,7 @@ function recommendGame() {
             p.textContent  = filteredGames[randomIndex].name;
             //gameContainer.appendChild(p);
         }
+
         result.style.display = 'block';
     }, 100);
 }
